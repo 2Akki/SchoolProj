@@ -1,0 +1,89 @@
+#titlecart{
+    text-align: center;
+    font-size: 50px;
+    font-family:"Bebas Neue", sans-serif;
+    color: white;
+
+}
+.box{
+    padding-top: 2rem;  
+    height: 100rem;
+    background-color: rgba(168, 121, 163, 0.9);
+    color: white;
+    text-align: center;
+    border-radius: 3%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+    justify-content: center;
+
+}
+
+body{
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+}
+
+
+.incart{
+
+    background-color: rgba(206, 148, 200, 0.9);;
+    color: aliceblue;
+    font-family:"Bebas Neue", sans-serif;
+    justify-content: space-between !important;
+    width: 75rem;
+    height: 7rem;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: left;
+    padding: 5px;
+    
+
+}
+
+.someitem{
+    position: relative;
+    justify-content: space-between;
+
+
+}
+
+
+.thep{
+    margin-top: -1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+
+.price{
+    position: absolute !important;
+    text-align: left !important;
+    display: inline-block;
+
+}
+
+
+/*all selected*/
+/*animation handler*/
+div{
+    opacity: 0;
+    transform: translateY(20px); /* Start from 20px below */
+    animation: easeIn 1s forwards; /* Apply animation */
+}
+
+@keyframes easeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+
+
