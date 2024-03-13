@@ -10,15 +10,15 @@ export default function About() {
            
             <div className='images'>      
                  <div> 
-                    <img className='image' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F640%2Fmedia%2Fimages%2F52448000%2Fjpg%2F_52448112_jex_1033070_de27-1.jpg&f=1&nofb=1&ipt=b71afc95d4d9338d4d55aa2e8e027ad2541a037f3144934b7ec77423d45deb14&ipo=images'></img>
+                    <img className='image' src='https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png'></img>
                     <h3 className='animate-charcter'> Akki</h3>
-                    <p className='desc'>Backend, main programer, monkey</p>
+                    <p className='desc'>Backend, main programer, styler</p>
                   </div>
                 
                   <div> 
                     <img className='image' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F0gtXmQLOGWM%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=08a56b809a1eb5c9553925465faa626b992c81b60278f0967cd1b4d43f25e879&ipo=images'></img>
                     <h3 className='animate-charcter'> Hookey</h3>
-                    <p className='desc'>Main styler/designer</p>
+                    <p className='desc'>Main styler/designer, gay</p>
             </div>
                   
             <p className='sectext'>  Vi lavede hjemmesiden som et consept for en web app hvor man kan købe både prudukter og servicer</p>
